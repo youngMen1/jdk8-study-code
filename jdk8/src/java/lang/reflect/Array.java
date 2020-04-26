@@ -41,6 +41,7 @@ class Array {
     /**
      * Constructor.  Class Array is not instantiable.
      */
+    // fengzhiqiang
     private Array() {}
 
     /**

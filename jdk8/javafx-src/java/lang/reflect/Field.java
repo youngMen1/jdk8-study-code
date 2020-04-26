@@ -1166,6 +1166,7 @@ class Field extends AccessibleObject implements Member {
      *
      * @since 1.8
      */
+    // 返回一个AnnotatedType对象，该对象表示使用一种类型来指定
     public AnnotatedType getAnnotatedType() {
         return TypeAnnotationParser.buildAnnotatedType(getTypeAnnotationBytes0(),
                                                        sun.misc.SharedSecrets.getJavaLangAccess().

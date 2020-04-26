@@ -107,7 +107,7 @@ import java.util.function.UnaryOperator;
  * @see AbstractSequentialList
  * @since 1.2
  */
-
+// 看源码
 public interface List<E> extends Collection<E> {
     // Query Operations
 
@@ -118,6 +118,7 @@ public interface List<E> extends Collection<E> {
      *
      * @return the number of elements in this list
      */
+    // 大小
     int size();
 
     /**
@@ -125,6 +126,7 @@ public interface List<E> extends Collection<E> {
      *
      * @return <tt>true</tt> if this list contains no elements
      */
+    // 比较
     boolean isEmpty();
 
     /**
@@ -142,6 +144,7 @@ public interface List<E> extends Collection<E> {
      *         list does not permit null elements
      * (<a href="Collection.html#optional-restrictions">optional</a>)
      */
+    // 标记
     boolean contains(Object o);
 
     /**
@@ -598,6 +601,7 @@ public interface List<E> extends Collection<E> {
      * @throws IndexOutOfBoundsException if the index is out of range
      *         (<tt>index &lt; 0 || index &gt;= size()</tt>)
      */
+    // 删除
     E remove(int index);
 
 
